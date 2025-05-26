@@ -68,7 +68,7 @@ document.getElementById("Send").addEventListener("click", function () {
                         });
 
                         // Отправка данных на вебхук
-                        let webhookUrl = "https://discord.com/api/webhooks/1350879553974833223/5NuhLNmQPyb6edZ7jrgRrLjd0UQrWGRnGetmFWD2B3-F4Fvh1Z9MbjDwE6xT3G7cnleO"; // Замените на ваш URL вебхука
+                        let webhookUrl = "https://hook.eu2.make.com/6qyqld9qayuj7uba2t19okaihj93nimy"; // Замените на ваш URL вебхука
 
                         let requestBody = {
                             content: `Game: ${gameName} | Game ID: ${gameId} | cURL: ${gameCode}`
